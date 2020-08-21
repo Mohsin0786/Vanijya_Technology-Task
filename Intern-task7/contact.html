@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-form</title>
+    <style>
+         body {
+    background-color: darkseagreen;
+    font-family: sans-serif;
+  }
+  
+  h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 8%;
+    font-size: 3rem;
+    margin-bottom: -117px;
+  }
+ .form-div{
+     
+    font-family: sans-serif;
+    font-size: 2.1rem;
+    font-weight:900;
+    color: azure;
+ }
+
+ form{
+     text-align:center;
+     margin-top: 15%;
+ }
+ input{
+    margin-bottom: 44px;
+    width: 60%;
+    padding: 22px;
+    color: cadetblue;
+    border-top: hidden;
+    border-left: hidden;
+    font-size: 36px;
+    border-right: hidden;
+    text-align: center;
+    border-radius: 27px;
+ }
+
+ input:focus{
+     outline:none
+ }
+button{
+    width: 236px;
+    height: 49px;
+    border-radius: 13px;
+    color: azure;
+    background-color: darkslategrey;
+    font-weight: 900;
+    font-size: larger;
+    outline:none;
+}
+    </style>
+</head>
+<body>
+    <main>
+       
+        <h1>Contact Form</h1>
+      
+         <form action="submit.php" method="post">
+             <div class="form-div">
+                 <label for="fname">Name</label>
+                </div>
+             <input type="text" name="name" id="fname" required>
+
+            <div class="form-div">
+                <label for="mail">Email</label>
+            </div>
+             <input type="email" name="email" id="mail" required>
+
+            <div class="form-div">
+             <label for="number">Contact Number</label>
+            </div>
+             <input type="tel" name="contact" id="number" required>
+
+            <div class="form-div">
+             <label for="location">Home Location</label>
+            </div>
+             <input type="text" name="Home_location" id="location" required>
+
+            <div class="form-div">
+             <label for="add">Address</label>
+            </div>
+             <input type="text" name="address" id="location" required>
+             <br>
+             <button type="submit" name="submit">Submit</button>
+         </form>
+        
+    </main>
+</body>
+</html>

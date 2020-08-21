@@ -1,0 +1,57 @@
+.content{
+    font-family: 'Lemonada', cursive;
+    
+}
+body{
+    
+    background-color: teal;
+   color: whitesmoke; 
+}
+.heading{
+    text-align: center;
+    
+    
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+input{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    width: 99%;
+    text-align: center;
+    margin-top: 16px;
+    background-color: #f94074f0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 35px;
+    font-family: 'Lemonada', cursive;
+     color: white; 
+}
+.no-outline:focus {
+    outline: none;
+  }
+  .details{
+      text-align: center;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+  button{
+      margin: auto;
+      display: block;
+      background-color:blue;
+      width: 266px;
+      padding:8px;
+      border-radius: 34px;
+      font-weight: bold;
+      color: white;
+      outline: none;
+
+  }

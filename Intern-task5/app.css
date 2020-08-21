@@ -1,0 +1,81 @@
+body {
+  margin: 3rem auto;
+  padding: 0 1rem;
+  font-family: sans-serif;
+  font-family: 'Suez One', serif;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: inherit;
+  display: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 12rem;
+}
+
+h3,
+p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 50px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+input {
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  width: 99%;
+  text-align: center;
+  margin-top: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-family: "Lemonada", cursive;
+  color: balck;
+  outline: none;
+  font-family: 'Suez One', serif;
+  font-size: 2rem;
+}
+label {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.btn-primary {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+  margin: auto;
+  margin-top: inherit;
+}
+ .btn-primary:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+} 

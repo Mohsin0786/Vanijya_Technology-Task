@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="city-input">
+    <label for="name">Enter the city name</label>
+    <input type="text" id="name">
+</div>
+
+<button class="btn-primary">
+    Fetch Weather
+</button>
+    <div class="card" id="dis-card">
+        <img src="" id="icon"/>
+        <div class="container">
+          <h3><b>The Current temp</b></h3>
+          <p id="temp"></p>
+          
+          <h3 id="description"></h3>
+          <br>
+          <h3>Humidity is</h3>
+          <p id="humidity"></p>
+          <h3>Feels Like</h3>
+          <p id="feels"></p>
+
+          
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="api.js"></script>
+</body>
+</html>
