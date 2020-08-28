@@ -1,5 +1,5 @@
 async function getimg() {
-    const base_url = `https://api.nasa.gov/planetary/apod?api_key=QNO0YCShYWfomIo0eZrYnNHofiFLlkx5h4naqJMb`;
+    const base_url = `https://api.nasa.gov/planetary/apod?api_key=Your-key`;
 
     const response = await fetch(base_url);
     const data = await response.json();
