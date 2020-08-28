@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('button').click(async function getTempData() {
         const name = $('#name').val();
 
-        const base_url = `https://api.openweathermap.org/data/2.5/weather?q=${name},in&units=metric&appid=50edf3e3653bb0502ed27bed267d962d`;
+        const base_url = `https://api.openweathermap.org/data/2.5/weather?q=${name},in&units=metric&appid=Your-id`;
 
         const response = await fetch(base_url);
         const data = await response.json();
